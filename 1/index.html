@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Обьекты</title>
+    <script type="text/javascript">
+      // Создание объекта через блок инициализации.
+      var instance = { a: 222, b: 444 };
+
+      // Вывод значений свойств.
+      document.write("<p>instance.a = " + instance.a);
+      document.write("<p>instance.b = " + instance.b);
+      document.write("<hr/>");
+      // Присвоение новых значений свойствам.
+      instance.a = 333; // 1 способ.
+      instance["b"] = 555; // 2 способ.
+
+      // Вывод значений свойств.
+      document.write("<p>instance.a = " + instance.a);
+      document.write("<p>instance.b = " + instance.b);
+      document.write("<hr/>");
+      document.write("<p>instance = " + instance);
+    </script>
+  </head>
+  <body></body>
+</html>
